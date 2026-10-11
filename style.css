@@ -1,0 +1,47 @@
+/* ==========================================
+   1. EKSPERIMEN CSS EKSTERNAL (style.css)
+   ================================---------- */
+
+/* Variabel Global & Root */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --dark-color: #2c3e50;
+    --light-bg: #ecf0f1;
+}
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Type Selector & Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--dark-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Layout Utama & Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography & Text Experiment */
+h1 {
+    text-align: center;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

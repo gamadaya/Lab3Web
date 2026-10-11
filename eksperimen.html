@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksperimen CSS Eksternal & Internal</title>
+    
+    <!-- MEMANGGIL CSS EKSTERNAL -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EKSPERIMEN CSS INTERNAL -->
+    <style>
+        /* Mengatur Box Model & Background dengan Linear Gradient */
+        .experiment-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 3px dashed #ffd700;
+            box-shadow: 0 10px 20px rgba(118, 75, 162, 0.3);
+            transition: all 0.4s ease-in-out;
+        }
+
+        /* Eksperimen Pseudo-Class (:hover) dan 2D Transform */
+        .experiment-box:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(118, 75, 162, 0.5);
+            border-style: solid;
+        }
+
+        /* Eksperimen Multiple Columns */
+        .column-layout {
+            column-count: 2;
+            column-gap: 30px;
+            column-rule: 2px solid #bdc3c7;
+            margin: 20px 0;
+        }
+
+        /* Eksperimen Styling List & Markers */
+        .styled-list {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .styled-list li {
+            margin-bottom: 8px;
+            color: #2980b9;
+        }
+
+        /* Eksperimen Button dengan UI & Cursor Kustom */
+        .btn-experiment {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s, transform 0.2s;
+            text-transform: uppercase;
+        }
+
+        /* Pseudo-Class :active saat tombol diklik */
+        .btn-experiment:active {
+            transform: scale(0.95);
+            background-color: #219653;
+        }
+
+        /* Pseudo-Element ::first-letter & ::before */
+        p.highlight-text::first-letter {
+            font-size: 200%;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Eksperimen CSS</h1>
+        <p class="highlight-text">Halaman ini mendemonstrasikan bagaimana menggabungkan file CSS eksternal dengan blok CSS internal untuk menciptakan berbagai gaya visual, efek animasi, dan tata letak modern.</p>
+
+        <!-- Kotak Eksperimen 1: Gradient, Border, & Transform -->
+        <div class="experiment-box">
+            <h3>Kotak Efek 3D / Transform</h3>
+            <p>Arahkan kursor Anda ke dalam kotak ungu ini untuk melihat efek transisi halus, pergeseran posisi (translate), dan perubahan bentuk border.</p>
+        </div>
+
+        <!-- Kotak Eksperimen 2: Multi-Column Layout --
+        <div style="margin-top: 30px;">
+            <h3>Eksperimen Kolom Teks (Column Layout)</h3>
+            <div class="column-layout">
+                <p>Fitur kolom pada CSS memungkinkan teks panjang dibagi secara otomatis menjadi beberapa kolom rapi layaknya surat kabar, lengkap dengan garis pembatas di tengahnya.</p>
+                <p>Anda dapat mengatur jumlah kolom menggunakan <code>column-count</code> serta jarak antar kolom menggunakan properti <code>column-gap</code>.</p>
+            </div>
+        </div>
+
+        <!-- Kotak Eksperimen 3: List & Interactive Button -->
+        <div style="margin-top: 20px;">
+            <h3>Daftar Kategori Eksperimen:</h3>
+            <ul class="styled-list">
+                <li>Eksperimen Background & Box Shadow</li>
+                <li>Eksperimen Pseudo-Class & Hover Effect</li>
+                <li>Eksperimen Layout Kolom Koran</li>
+            </ul>
+
+            <div style="text-align: center; margin-top: 25px;">
+                <button class="btn-experiment">Tekan Tombol Ini</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
