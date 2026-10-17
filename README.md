@@ -29,18 +29,17 @@ Semua file tangkapan layar (*screenshot*) tersimpan rapi di dalam direktori `scr
 ```text
 Lab3Web/
 ├── screenshots/
-│   ├── 1.png               # Tampilan dokumen HTML dasar (Gambar 2)
-│   ├── 2.png               # Penerapan Internal CSS (Gambar 3)
-│   ├── 3.png               # Penerapan Inline CSS (Gambar 4)
-│   ├── 4.png               # Penerapan External CSS navigasi (Gambar 5)
-│   ├── 5.png               # Penerapan ID & Class Selector (Gambar 6)
-│   └── 6.png               # Eksperimen CSS & pembuktian jawaban soal
-├── index.html              # Landing page utama repositori (CSS Dasar terintegrasi)
-├── lab2_css_dasar.html     # File latihan utama sesuai instruksi modul
-├── lab2_css_eksternal.html # File demonstrasi implementasi CSS Eksternal
-├── style_eksternal.css     # File stylesheet terpisah (Eksternal CSS)
-├── eksperimen.html         # Halaman pengujian & pembuktian tugas modul
-└── README.md               # Laporan dokumentasi lengkap praktikum
+│   ├── 1.png               
+│   ├── 2.png               
+│   ├── 3.png               
+│   ├── 4.png              
+│   ├── 5.png              
+│   └── 6.png               
+├── README.md                 
+├── eksperimen.html
+├── lab2_css_dasar.html         
+└── style.css
+└── style_eksternal.css       
 ```
 
 ---
