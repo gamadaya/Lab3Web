@@ -192,7 +192,7 @@ Melengkapi file `style_eksternal.css` dengan aturan ID Selector (`#intro`) dan C
 **Screenshot Hasil Langkah 5 (ID & Class Selector Lengkap):**  
 ![Langkah 5 - Tampilan Lengkap ID dan Class Selector](./screenshots/5.png)
 
-### 5. Eksperimen HTML Dan Jawaban Tugas
+###  6. Eksperimen HTML Dan Jawaban Tugas
 
 ```HTML
 
@@ -366,6 +366,10 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 ```
+
+**Screenshot Hasil Halaman Eksperimen & Pembuktian Soal:**  
+![Langkah 6 - Halaman Eksperimen & Tugas](./screenshots/6.png)
+
 #### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet!
 
 ---
